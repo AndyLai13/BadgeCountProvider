@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="excluded_package">
+        <!-- exclude processed package in LauncherUnreadService -->
+        <item>com.google.android.apps.messaging</item>
+        <item>com.android.dialer</item>
+        <item>com.android.email</item>
+        <!-- play market won't show counts -->
+        <item>com.android.vending</item>
+    </string-array>
+</resources>
